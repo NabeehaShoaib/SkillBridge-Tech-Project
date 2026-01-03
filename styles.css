@@ -1,0 +1,252 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background: linear-gradient(135deg, #04062c 40%, #4a0080 70%, #d63384 100%);
+    color: #fff;
+}
+
+.issue{
+    margin: auto;
+}
+
+.plan-head{
+    margin: auto;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;     
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: bold;     
+}
+
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+p{
+    color: #060101;
+}
+
+.container-fluid{
+    padding: 2% 7%;
+}
+
+.peeb{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.subtitle {
+            font-size: 16px; /* smaller than main title */
+            color: white;   /* optional color */
+            margin-top: 5px;  /* small gap from main title */
+            align-self: center;
+        }
+
+/* Navigation-bar */
+
+.navbar{
+    padding: 0 0 3rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand-wrapper {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  line-height: 1.1;      /* optional spacing */
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+
+.button-download{
+    margin: 5% 3% 5% 0;
+}
+.circular-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 7px solid white;
+    object-fit: cover;
+    position:relative;
+    right: -50px; /* Move more to the right */
+    top: -70px; /* Move more to the top */
+    margin-top: 60px;
+
+}
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #04062c;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#04062c; ;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #04062c;
+    color: #fff;
+}
+
+#cta{
+    background-color: #04062c;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.ctahe{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 1%;
+}
+#press{
+    background-color: #04062c;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 10px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 5%;
+}
+
+@media (max-width: 1028px){
+    #title
+    {
+        text-align: center;
+    }
+}
+
+#footer{
+    text-align: center;
+    padding: 2% 4%;
+}
+.white-bg{
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.h5-white {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+/* Logo styling */
+.nav-logo {
+    height: 100px; /* Adjust this number: 50px, 60px, 70px */
+    width: auto;
+    margin-right: 6px;
+}
+
+/* Make navbar-brand flex for logo + text */
+.navbar-brand {
+    display: flex !important;
+    align-items:left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* Container for text */
+.brand-text-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+/* Your existing "Skill Bridge" text */
+.brand-main {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Your existing "Tech" text */
+.brand-sub {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #ccc; /* Lighter color for contrast */
+    margin-top: 2px;
+}
+/* Override Bootstrap if needed */
+.navbar-dark .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+/* Fix spacing */
+.navbar-brand-wrapper {
+    display: flex;
+    align-items: center;
+}
+.navbar .container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0!important;
+    margin-right: 0 !important;
+}
+.navbar-brand-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    padding:0;
+}
+.nav-logo{
+    height: 60px;
+    width: auto;
+}
+.brand-text-container{ 
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
