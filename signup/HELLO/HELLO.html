@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Skill Bridge</title>
+  <script src="https://kit.fontawesome.com/713df8cfa3.js" crossorigin="anonymous"></script>
+
+  <!-- Only Bootstrap 5 (removed Bootstrap 4) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4kJh0Qm+XqO1++/" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="hello.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid navbar-container">
+      <a class="navbar-brand" href="#">
+        <img src="tech1.jpeg" alt="Logo" class="nav-logo">
+        <div class="brand-text-container">
+          <span class="brand-main">Skill Bridge</span>
+          <span class="brand-sub">Tech</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Training</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="title">
+    <div class="container-fluid hero-container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 hero-text">
+          <h1>Your Bridge to a Brighter Career.</h1>
+          <div class="hero-buttons">
+            <button class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+            <button class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 text-center">
+          <img src="tech.jpeg" alt="pic2-mockup" class="circular-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="row text-center features-container">
+      <div class="col-lg-4 feature-box">
+        <i class="icon fa-solid fa-code fa-4x"></i>
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript and modern frameworks to build real-world websites.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fa-solid fa-laptop-code fa-4x"></i>
+        <h3>Programming Skills</h3>
+        <p>Learn C++, Python, and problem-solving for strong technical foundations.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fa-solid fa-briefcase fa-4x"></i>
+        <h3>Career Readiness</h3>
+        <p>Projects, guidance, and skills that prepare you for real job opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="text-center text-white bg-dark">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I joined Skill Bridge to learn basics, and ended up gaining clarity about my future career.</h2>
+          <img class="peeb" src="images/man-img.png" alt="man-profile">
+          <em>Jason, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Before Skill Bridge, programming felt scary; now I actually enjoy creating websites on my own.</h2>
+          <img class="peeb" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Emily, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Press Section -->
+  <section id="press" class="text-center bg-dark">
+    <img class="press-logo h5-white" src="images/h5.png" alt="h5-logo">
+    <img class="press-logo" src="images/Canva.png" alt="Canva-logo">
+    <img class="press-logo white-bg" src="images/Figma.png" alt="Figma-logo">
+    <img class="press-logo" src="images/Microsoft.png" alt="Microsoft-logo">
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="text-center py-5">
+    <h2>Choose your learning path to fit your schedule and ambitions perfectly.</h2>
+    <p>Progress from beginner basics to expert mastery with our flexible courses.</p>
+    <div class="row pricing-container">
+      <div class="col-lg-4 col-md-6 pricing-col">
+        <div class="card">
+          <div class="card-header"><h3>3 months</h3></div>
+          <div class="card-body">
+            <h2>5000 PKR</h2>
+            <p>Gives beginner skills to start easily.</p>
+            <p>You learn the basics to handle simple tasks right away.</p>
+            <button class="btn btn-dark btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pricing-col">
+        <div class="card">
+          <div class="card-header"><h3>6 months</h3></div>
+          <div class="card-body">
+            <h2>10000 PKR</h2>
+            <p>Builds everyday skills for real-life use.</p>
+            <p>You gain solid know-how to solve common problems confidently.</p>
+            <button class="btn btn-dark btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 pricing-col">
+        <div class="card">
+          <div class="card-header"><h3>8 months</h3></div>
+          <div class="card-body">
+            <h2>12000 PKR</h2>
+            <p>Creates expert skills for top results.</p>
+            <p>You master advanced tricks to stand out and lead.</p>
+            <button class="btn btn-dark btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call To Action -->
+  <section id="cta" class="text-center text-white bg-dark py-5">
+    <h3 class="ctahe">"Connecting You to What You Can Be"</h3>
+    <button class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+    <button class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="text-center text-white py-3 bg-dark">
+    <p>© Copyright Skill Bridge</p>
+  </footer>
+
+</body>
+</html>
